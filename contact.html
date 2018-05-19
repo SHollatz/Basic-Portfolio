@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <title>Sabine Hollatz</title>
@@ -8,29 +8,38 @@
 </head>
 <body>
     <header>
-        <section id="name">
+        <div class="header_content">
             <h1>Sabine Hollatz</h1>
-        </section>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+            <div class="navigation">
+                <a id="about" href="index.html">About</a>
+                <a id="portfolio" href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
     </header>
+    <br class="clearfloat">
 
-    <section>
-        <h2>Contact</h2>
-        <h3>Name</h3>
-        <input type="text" placeholder="John Smith">
-        <h3>Email</h3>
-        <input type="email" id="email" placeholder="example@gmail.com">
-        <h3>Message</h3>
-        <input type="text"> 
+    <section class="main">
+        <div id="main_content_contact">
+            <h2>Contact</h2>
+            <hr>
+            <div id="input">
+                <h3>Name</h3>
+                <input id="name" type="text" placeholder="John Smith">
+                <h3>Email</h3>
+                <input id="email" type="email" id="email" placeholder="example@gmail.com">
+                <h3>Message</h3>
+                <input id="message" type="text"> 
+                <button class="submit">Submit</button>
+            </div> 
+        </div>
     </section>
-    <button>Submit</button>
+    
 
     <footer>
-        Copyright &copy;
+        <div class="copyright">
+            Copyright &copy;
+        </div>
     </footer>
 </body>
 </html>
