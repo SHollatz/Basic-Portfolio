@@ -215,6 +215,11 @@ h3 {
      background-color: rgba(56, 180, 180, 0.842);
  }
 
+ button:active {
+     background-color: #cccccc;
+     color: rgba(39, 131, 131, 0.842);
+ }
+
  .placeholder {
     margin: 0px 20px 40px 0px;
     text-align: center;
